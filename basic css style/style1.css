@@ -1,0 +1,153 @@
+h1{
+  color: darkmagenta;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+}
+p{
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+text-indent: inherit;
+font-style: oblique;
+font-stretch: semi-semi-expanded;
+}
+#top{
+  font-size: 36px;
+}
+#mid{
+  font-size: 24px;
+
+}
+#bottom{
+  font-size: 12px;
+}
+.name{
+  font-weight: bold;
+
+}
+div{
+  text-align: center;
+  background-color: none;
+  color: darkmagenta;
+  padding: 30px;
+}
+table{
+  width: 50%;
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+th,td{
+  border: 1px solid lightgrey;
+  text-align: center;
+
+}
+th{
+  background-color: lightgrey;
+}
+td{
+  background-color: black;
+  color: white;
+}
+
+form{
+  padding: 30px;
+}
+form label{
+  display: block;
+  padding-bottom: 7px;
+  font-weight: bold;
+}
+form input[type="text"],form textarea{
+  padding: 8px;
+  width: 100%;
+}
+button{
+  background-color: black;
+  color: white;
+}
+button:hover{
+  background-color: grey;
+  color: black;
+
+}
+img{
+  padding: 70px;
+  margin-left: 40px;
+  margin-right: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+a:hover{
+  color: lightgreen ;
+background-color: black;
+}
+a:active{
+  color: lightblue;
+}
+a:visited{
+  color: white;
+background-color: black
+}
+.numbers ul{
+  padding: 10px;
+  list-style: disc;
+  text-align: left;
+  color: green;
+}
+.numbers li{
+  padding: 10px;
+}
+.block{
+  float: left;
+  width: 33.3%;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  color: black;
+}
+.block h3{
+  color: red;
+}
+.p-box{
+  width: 500px;
+  height: 500px;
+  margin: 300px;
+  position: relative;
+  border: 1px solid black;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url('https://image.freepik.com/free-photo/light-blue-bokeh-light-abstract-background_73588-51.jpg');
+  background-position: 100px 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p-box h1{
+  top: 200px;
+  left: 100px;
+position: absolute;
+}
+.p-box h2{
+position: absolute;
+  top: 400px;
+  right: 100px;
+}
+
+.button{
+  position: fixed;
+  top:400px;
+}
+.mylist{
+   text-align: left;
+   color: teal;
+}
+.mylist li:first-child{
+  background: blue;
+}
+.mylist li:nth-child(5){
+  background: yellow;
+}
+.mylist li:nth-child(even){
+  background: grey;
+}

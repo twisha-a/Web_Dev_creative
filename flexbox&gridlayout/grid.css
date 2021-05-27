@@ -1,0 +1,113 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 15% 35% 50%;
+  /*
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+*/
+  grid-gap: 0em;
+}
+.wrapper > div{
+  background: ;
+  padding: 1em;
+  }
+#footer_icon{
+align-items: center;
+  }
+.wrapper > div:nth-child(odd){
+  background: pink;
+}
+.wrapper .footer_head{ 
+    /* text-align: center; */
+    box-sizing: border-box;  
+    border-bottom: 1px solid black;
+    line-height: 1.8;
+    display: table-cell;
+    /* width: 300px; */
+    padding: 10px;
+      }
+.wrapper .footer_contact_info{
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Archivo", sans-serif;
+}
+.wrapper .footer_sm_list li{
+  list-style-type: none;
+  display: flex;
+  padding-right: 10px;
+  float: left;
+}
+.wrapper .footer_sm_list ul{
+  padding-left: 20px;
+}
+/*///////for grid2////////
+//////////////////////////////
+////////////////////////////
+//////////////////////////////*/
+.wrapperpart2{
+display: grid;
+/*grid-template-columns: 1fr 1fr 1fr;
+*/grid-template-columns: repeat(3, 1fr );
+grid-gap: 1em;
+/*grid-auto-rows: 100px;*/
+grid-auto-rows: minmax(100px, auto);
+}
+.nested{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows:  70px;
+  grid-gap: 1em;
+}
+.wrapperpart2 > div{
+  background: #eee;
+  padding: 1em;
+}
+.wrapperpart2 > div:nth-child(odd){
+  background: #ddd;
+}
+.nested > div{
+  border: #333 1px solid;
+  padding: 1em;
+}
+/*///////for grid3////////
+//////////////////////////////
+////////////////////////////
+//////////////////////////////*/
+.wrapperpart3{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+
+}
+.wrapperpart3 > div{
+  background: #eee;
+  padding: 1em;
+}
+.wrapperpart3 > div:nth-child(odd){
+  background: #ddd;
+}
+.box1{
+/*  align-self: flex-end  ;*/
+grid-column: 1/3;
+grid-row:1/3 ;
+
+}
+.box2{
+ /* align-self: flex-start;*/ 
+grid-column: 3;
+grid-row: 1/3;
+}
+.box3{
+/*   justify-self: ;*/
+grid-column: 2/4;
+grid-row: 3
+}
+.box4{
+  /*   align-self: ;*/
+  grid-column: 1;
+  grid-row: 2/4;
+}
+.footer_head{
+  text-underline-position: below;
+}
