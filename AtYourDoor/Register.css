@@ -1,0 +1,100 @@
+body,
+		html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background: #1c2237 !important;
+		}
+		.logo{
+            color: #ffe9ec;
+            padding: 10px;
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+		.user_card {
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #ffe9ec;
+			position: relative;
+			display: grid;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(235, 112, 112, 0.788), 0 6px 20px 0 rgba(235, 112, 112, 0.788);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(235, 112, 112, 0.788), 0 6px 20px 0 rgba(235, 112, 112, 0.788);
+			-moz-box-shadow: 0 4px 8px 0 rgba(235, 112, 112, 0.788), 0 6px 20px 0 rgba(235, 112, 112, 0.788);
+			border-radius: 15px;
+			
+		}
+        .user_position{
+            display: grid;
+			justify-content: center;
+        }
+
+		.form_container {
+			margin-top: 20px;
+		}
+
+		#form-title{
+			color: #5a554e;
+			font-size: 30px;
+		}
+		/* .login_btn {
+			width: 100%;
+			background: #97c7bf  !important;
+			color: #ffe9ec !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		} */
+		.input-group-text {
+			background: #97c7bf !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.Register_Account{
+			padding: 10px !important;
+			display: grid !important;
+			justify-content: center !important;
+		}
+		.register_btn{
+			display: grid;
+			justify-content: center;
+			padding: 20px;
+			color:pink;
+		}
+		input.register_btn {
+			background-color: #97c7bf;
+			border: transparent;
+			border-radius: 25px;
+			height: 30px;
+			color: #5a554e;
+			font-weight: 550;
+		}
+		.Register_Account {
+			display: grid;
+			justify-content: center;
+			color: #97c7bf;
+		}
+		.register_btn:hover{
+			cursor: pointer;
+			width: 200px;			
+		}
+		.input-group-text{
+			background: #ffe9ec !important;
+			color:  #97c7bf!important;
+		}
+		.input_group_1, .input_group_2, .input_group_3, .input_group_4{
+			padding: 10px;
+		}
